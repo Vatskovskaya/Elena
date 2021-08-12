@@ -149,73 +149,24 @@ a{
 	align-items: baseline;
 }
 /*Column 1*/
-.about-us__flex-professionals{
+.about-us__flex-columns{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.about-us__flex-professionals__img{
-	width: 43px;
-	height: 31px;
-
+.about-us__flex-columns img{
 	margin-bottom: 25px;
 }
-.about-us__flex-professionals__title{
+
+.about-us__flex-columns h3{
 	font-size: 16px;
 	line-height: 24px;
 
 	margin-bottom: 35px;
 }
 
-.about-us__flex-professionals__subtitle{
-	text-align: center;
-}
-
-/*Column 2*/
-.about-us__flex-amateurs{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.about-us__flex-amateurs__img{
-	width: 38px;
-	height: 35px;
-
-	margin-bottom: 25px;
-}
-.about-us__flex-amateurs__title{
-	font-size: 16px;
-	line-height: 24px;
-
-	margin-bottom: 35px;
-}
-.about-us__flex-amateurs__subtitle{
-	text-align: center;
-}
-
-/*Column 3*/
-.about-us__flex-everyone{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.about-us__flex-everyone__img{
-	width: 39px;
-	height: 40px;
-
-	margin-bottom: 25px;
-}
-.about-us__flex-everyone__title{
-	font-size: 16px;
-	line-height: 24px;
-
-	margin-bottom: 35px;
-}
-
-.about-us__flex-everyone__subtitle{
+.about-us__flex-columns p{
 	text-align: center;
 }
 
